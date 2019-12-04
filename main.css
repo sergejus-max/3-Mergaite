@@ -1,0 +1,74 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(231, 229, 229);
+}
+    main{
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2);
+        margin-top: 100px;
+     }
+        header{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+         }
+            header img{
+                display: inline-block;
+                float: left;
+                margin-top: 20px;
+            }
+            nav{
+                display: inline-block;
+                float: right;
+                height: 30px;
+                margin-top: 35px;
+            }
+                a{
+                    display: inline-block;
+                    margin-left: 50px; 
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: rgb(73, 73, 73);
+                }
+                .mygtukas{
+                    display: inline-block;
+                    border: 2px solid rgb(73, 73, 73);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-radius: 20px;
+                }
+        section{
+            display: inline-block;
+            width: 100%;
+        }
+            div{
+                display: inline-block;
+                width: 45%;
+            }
+                h1{
+                    display: inline-block;
+                    font-size: 100px;
+                    color: rgb(95, 95, 95);
+                    font-family: calibri;
+                    margin-top: 150px;;
+                }
+                p{
+                    display: inline-block;
+                    padding-top: 50px;
+                    font-size: 37px;
+                    color: rgb(95, 95, 95);
+                    font-family: calibri;
+                }
+            img{
+                display: inline-block;
+                margin-top: 100px;
+                float: right;
+            }
